@@ -1,2 +1,6 @@
 *.idea
 *.vscode
+*.zip
+
+# Ignore all cached datasets
+/datasets/downloads/*
