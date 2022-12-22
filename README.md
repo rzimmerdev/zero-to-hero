@@ -21,7 +21,7 @@ Create and deploy to production a simple neural network for Computer Vision
 
 
 # First Model
-The first model available and deployed considers a simple 2D image, taken from the MNIST Dataset. Refeer to [_High-Performance Neural Networks
+The first model available and deployed considers a simple 2D image, taken from the MNIST Dataset. Reefer to [_High-Performance Neural Networks
 for Visual Object Classification_](https://arxiv.org/pdf/1102.0183.pdf) for further details on the dataset.
 
-The CI/CD process will use the default Github pipeline using the available [Github Actions features](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/). The training process will use the MLFLow framework, to cather and track the necessary metrics and log accordingly. Refeer to the [docs](https://mlflow.org/docs/latest/quickstart.html) for further details.
+The CI/CD process will use the default Github pipeline using the available [Github Actions features](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/). The training process will use the MLFLow framework, to cather and track the necessary metrics and log accordingly. Reefer to the [docs](https://mlflow.org/docs/latest/quickstart.html) for further details.
