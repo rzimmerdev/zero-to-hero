@@ -15,3 +15,7 @@
 # Cloud Data Science
 
 [For Dummies](https://www.kazzcade.com/wp-content/uploads/2022/08/Cloud-Data-Science-for-Dummies_compressed.pdf)
+
+# Torch Lightning
+
+[Deploy in the Cloud](https://pytorch-lightning.readthedocs.io/en/latest/levels/intermediate.html)
