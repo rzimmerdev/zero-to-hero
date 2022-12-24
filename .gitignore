@@ -5,3 +5,4 @@
 # Ignore all cached downloads
 /downloads/*
 /checkpoints/*
+/checkpoints/
