@@ -2,5 +2,6 @@
 *.vscode
 *.zip
 
-# Ignore all cached datasets
-/datasets/downloads/*
+# Ignore all cached downloads
+/downloads/*
+/checkpoints/*
