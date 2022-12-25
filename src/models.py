@@ -30,7 +30,8 @@ class CNN(nn.Module):
             classifier_layers.append(
                 nn.Linear(in_features=layer[0], out_features=layer[1])
             )
-            classifier_layers.append(self.classifier_activations[idx]())
+            if idx < len(self.classifier_activations) - 1:
+                classifier_layers.append(self.classifier_activations[idx]())
 
         self.feature_extractor = nn.Sequential(*feature_layers)
         self.classifier = nn.Sequential(*classifier_layers)
