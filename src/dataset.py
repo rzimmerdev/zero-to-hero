@@ -2,10 +2,11 @@
 # coding: utf-8
 import gzip
 
-from src.downloader import download_dataset
-
-import numpy as np
+import torch
 from torch.utils.data import Dataset
+import numpy as np
+
+from src.downloader import download_dataset
 
 
 def load_mnist(download_dir):
@@ -37,7 +38,7 @@ class DatasetMNIST(Dataset):
     def __getitem__(self, n):
         if n > self.total:
             raise ValueError(f"Dataset doesn't have enough elements to suffice request of {n} elements.")
-        return self.data[n]
+        return torch.tensor(self.data[n][0].reshape(1, 28, 28), dtype=torch.float32), torch.tensor(self.data[n][1])
 
     def __len__(self):
         return len(self.data)
