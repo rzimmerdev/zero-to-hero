@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-import torch
 from torch import nn, optim
 import pytorch_lightning as pl
 

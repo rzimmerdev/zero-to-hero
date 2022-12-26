@@ -9,7 +9,7 @@ import numpy as np
 from src.downloader import download_dataset
 
 
-def load_mnist(download_dir):
+def download_mnist(download_dir):
     download_dataset("mnist", download_dir)
 
     return {"train": (download_dir + "train_images", download_dir + "train_labels"),
@@ -45,8 +45,8 @@ class DatasetMNIST(Dataset):
 
 
 if __name__ == "__main__":
-    download_dir = "../downloads/mnist/"
-    mnist = load_mnist(download_dir)
+    download_dir = "downloads/mnist/"
+    mnist = download_mnist(download_dir)
 
     dataset = DatasetMNIST(*mnist["train"])
 
