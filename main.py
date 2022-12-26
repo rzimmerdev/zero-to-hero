@@ -1,8 +1,8 @@
 import torch
 
-from models import CNN
-from dataset import DatasetMNIST, download_mnist
-from train import get_dataloaders, train_net_manually, train_net_lightning
+from src.models import CNN
+from src.dataset import DatasetMNIST, download_mnist
+from src.train import get_dataloaders, train_net_manually, train_net_lightning
 
 
 def main(device):

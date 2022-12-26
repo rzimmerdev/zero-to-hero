@@ -1,3 +1,3 @@
 from src.demo import main
 
-main()
+main("cpu")

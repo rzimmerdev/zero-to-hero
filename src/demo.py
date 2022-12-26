@@ -12,7 +12,7 @@ def predict_gradio_canvas(x, net, device="cuda"):
 
 
 def main(device="cuda"):
-    net = load_torch_net("../checkpoints/pytorch/version_1.pt")
+    net = load_torch_net("checkpoints/pytorch/version_1.pt")
 
     gr.Interface(fn=lambda x: predict_gradio_canvas(x, net, device),
                  inputs="sketchpad",

@@ -15,7 +15,7 @@ def download_dataset(name='cityscapes', path='downloads/downloads'):
     if name == 'cityscapes':
         download_cityscapes(path)
     elif name == "mnist":
-        pass
+        download_mnist(path)
     else:
         raise NotImplementedError
 
