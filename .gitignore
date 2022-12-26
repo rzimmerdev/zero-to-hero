@@ -1,8 +1,10 @@
 *.idea
 *.vscode
 *.zip
+*.pyc
 
 # Ignore all cached downloads
-/downloads/mnist/*
-!/downloads/mnist
 /venv/
+
+/downloads/mnist/*
+!/downloads/mnist/.gitkeep
