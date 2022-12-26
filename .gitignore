@@ -1,9 +1,8 @@
 *.idea
 *.vscode
 *.zip
+*.pyc
 
 # Ignore all cached downloads
-/downloads/*
-/checkpoints/*
-/checkpoints/
+/downloads/mnist/*
 /venv/
